@@ -1,0 +1,40 @@
+@mixin button-styles {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: beige;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+    }
+  }
+
+body{
+    //background-image: linear-gradient(#ff1b6b, #f89b29);
+    font-family: 'Courier New', Courier, monospace;
+div {
+    display: none;
+    }
+    button[data-page="notes"], button[data-page="account"], button[data-page="data"] {
+        @include button-styles;
+    }
+    #notes{
+
+        #text-container{
+            border: none;
+            border-radius: 20px;
+            font-size: 30px;
+            padding: 10px;
+            background-color: beige;
+            width: 300px;
+            height: 30px;
+            margin: 10px;
+    }
+        #submit-text{
+            @include button-styles;
+    }
+}
+}
