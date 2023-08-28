@@ -20,7 +20,7 @@ body{
 div {
     display: none;
     }
-	
+
     button[data-page="notes"], button[data-page="account"], button[data-page="data"] {
         @include button-styles;
     }
@@ -37,9 +37,19 @@ div {
             height: 30px;
             margin: 10px;
 			outline: none;
-    }
+		}
+		#cont{
+			display: block;
+		}
         #submit-text{
             @include button-styles;
     }
+		#reset{
+			@include button-styles;
+	}
 }
+    #account{
+		text-align: $align;
+
+	}
 }
