@@ -1,0 +1,57 @@
+body {
+  color: black;
+  font-family: 'Courier New', Courier, monospace; }
+  body div {
+    display: none; }
+  body button[data-page="notes"], body button[data-page="account"], body button[data-page="data"] {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: beige;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out; }
+    body button[data-page="notes"]:hover, body button[data-page="account"]:hover, body button[data-page="data"]:hover {
+      transform: scale(1.2); }
+  body #notes {
+    text-align: center; }
+    body #notes #text-container {
+      border: none;
+      border-radius: 20px;
+      font-size: 30px;
+      padding: 10px;
+      background-color: beige;
+      color: solid black;
+      width: 300px;
+      height: 30px;
+      margin: 10px;
+      outline: none; }
+    body #notes #cont {
+      display: block; }
+    body #notes #submit-text {
+      padding: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 20px;
+      background-color: beige;
+      margin: 5px;
+      transition: transform 0.3s ease-in-out; }
+      body #notes #submit-text:hover {
+        transform: scale(1.2); }
+    body #notes #reset {
+      padding: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 20px;
+      background-color: beige;
+      margin: 5px;
+      transition: transform 0.3s ease-in-out; }
+      body #notes #reset:hover {
+        transform: scale(1.2); }
+  body #account {
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
