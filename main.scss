@@ -38,9 +38,6 @@ div {
             margin: 10px;
 			outline: none;
 		}
-		#cont{
-			display: block;
-		}
         #submit-text{
             @include button-styles;
     }

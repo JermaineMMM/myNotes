@@ -27,8 +27,6 @@ body {
       height: 30px;
       margin: 10px;
       outline: none; }
-    body #notes #cont {
-      display: block; }
     body #notes #submit-text {
       padding: 10px;
       font-size: 20px;

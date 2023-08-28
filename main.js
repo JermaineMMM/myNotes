@@ -21,3 +21,10 @@ window.addEventListener("scroll", function() {
         document.body.style.backgroundColor = "#";
     };
   });
+  document.querySelector('form').addEventListener('submit', function(event) {
+	event.preventDefault();
+	// your code to handle the form submission
+  });
+	document.querySelector("form").addEventListener("submit", () =>{
+		event.preventDefault();
+	});
